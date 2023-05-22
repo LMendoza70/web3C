@@ -1,0 +1,21 @@
+body {
+  background-color: antiquewhite;
+  padding: 15px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+}
+#sech {
+  display: flex;
+}
+.imgh {
+  height: 70px;
+  width: 70px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+}
