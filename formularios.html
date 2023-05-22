@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./estilo.css" />
+  </head>
+  <body>
+    <h1>Practica manejo de formularios</h1>
+    <form
+      action="./index.html"
+      method="get"
+      name="login"
+      id="login"
+      autocomplete="off"
+    >
+      <fieldset>
+        <legend>Logueo web</legend>
+        <table>
+          <tr>
+            <td>
+              <label for="user">Usuario</label>
+            </td>
+            <td>
+              <input type="text" placeholder="Usuario" name="user" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass">Contraseña</label>
+            </td>
+            <td>
+              <input type="password" placeholder="Contraseña" name="pass" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <select name="grupo" id="grupo">
+                <option value="a">Grupo A</option>
+                <option value="b">Grupo B</option>
+                <option value="c">Grupo C</option>
+                <option value="d">Grupo D</option>
+              </select>
+            </td>
+            <td>
+              <input type="submit" value="Loguear" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
